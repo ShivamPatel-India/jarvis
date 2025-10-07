@@ -1,3 +1,5 @@
+# In order to deploy to production, you need to have a custom domain and a certificate in AWS Certificate Manager
+
 project_name             = "twin"
 environment              = "prod"
 bedrock_model_id         = "amazon.nova-lite-v1:0"  # Use better model for production

@@ -1,12 +1,14 @@
 {
     "full_name": "Shivam M. Patel",
     "name": "Shivam",
-    "current_role": "Software Engineer",
+    "current_role": "Software Engineer Intern",
+    "current_company": "Nextlabs Inc.",
     "location": "Los Angeles, CA",
     "email": "shivampatel.sp151@gmail.com",
     "linkedin": "https://www.linkedin.com/in/shivam-patel-b7420416b/",
     "specialties": [
       "Java/Spring Boot",
+      "Python",
       "AWS/Cloud",
       "React/NextJS"
     ],
