@@ -118,16 +118,18 @@ export default function Twin() {
                 {messages.length === 0 && (
                     <div className="text-center text-gray-500 mt-8">
                         {hasAvatar ? (
-                            <img 
-                                src="/avatar.png" 
-                                alt="Digital Twin Avatar" 
-                                className="w-20 h-20 rounded-full mx-auto mb-3 border-2 border-gray-300"
-                            />
+                            <picture>
+                                <img 
+                                    src="/avatar.png" 
+                                    alt="Digital Twin Avatar" 
+                                    className="w-20 h-20 rounded-full mx-auto mb-3 border-2 border-gray-300"
+                                />
+                            </picture>
                         ) : (
                             <Bot className="w-12 h-12 mx-auto mb-3 text-gray-400" />
                         )}
                         <p>Hello! I&apos;m Jarvis. </p>
-                        <p className="text-sm mt-2">Ask me anything about Shivam's portfolio!</p>
+                        <p className="text-sm mt-2">`Ask me anything about Shivam&apos;s portfolio!`</p>
                     </div>
                 )}
 
@@ -141,11 +143,13 @@ export default function Twin() {
                         {message.role === 'assistant' && (
                             <div className="flex-shrink-0">
                                 {hasAvatar ? (
-                                    <img 
-                                        src="/avatar.png" 
-                                        alt="Digital Twin Avatar" 
-                                        className="w-8 h-8 rounded-full border border-slate-300"
-                                    />
+                                    <picture>  
+                                        <img 
+                                            src="/avatar.png" 
+                                            alt="Digital Twin Avatar" 
+                                            className="w-8 h-8 rounded-full border border-slate-300"
+                                        />
+                                    </picture>
                                 ) : (
                                     <div className="w-8 h-8 bg-slate-700 rounded-full flex items-center justify-center">
                                         <Bot className="w-5 h-5 text-white" />
@@ -185,11 +189,13 @@ export default function Twin() {
                     <div className="flex gap-3 justify-start">
                         <div className="flex-shrink-0">
                             {hasAvatar ? (
-                                <img 
-                                    src="/avatar.png" 
-                                    alt="Digital Twin Avatar" 
-                                    className="w-8 h-8 rounded-full border border-slate-300"
-                                />
+                                <picture>
+                                    <img 
+                                        src="/avatar.png" 
+                                        alt="Digital Twin Avatar" 
+                                        className="w-8 h-8 rounded-full border border-slate-300"
+                                    />
+                                </picture>
                             ) : (
                                 <div className="w-8 h-8 bg-slate-700 rounded-full flex items-center justify-center">
                                     <Bot className="w-5 h-5 text-white" />
