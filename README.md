@@ -8,7 +8,7 @@ Purpose of building this project was to experience the best practicies used in t
 
 ## 🔗 Live Demo
 
-🌐 [Access the live demo here](https://d2n4uih20h4m0y.cloudfront.net)
+🌐 [Access the live demo here](https://d3c8fudqrspyik.cloudfront.net/)
 
 ☕ Heads-up: the live demo sometimes takes a budget-induced coffee break (AWS caps).
 
